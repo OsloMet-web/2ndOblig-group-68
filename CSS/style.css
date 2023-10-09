@@ -1,0 +1,30 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: minmax(120px, 10vw) auto 30vw 40px;
+    grid-auto-rows: minmax(100px, auto);
+    }
+.main-box {
+grid-column: 2 / 4; /*Dette betyr visst start at line 2 end at line 4 */
+grid-row: 1;
+background-color: aquamarine;  /* Må fjerne fargene såklart, var bare for å vise grid*/
+}
+.image-box {
+    grid-column: 2 / 4;
+    grid-row: 2;
+    background-image: url(https://cdn.britannica.com/60/8160-050-08CCEABC/German-shepherd.jpg);
+    background-size:cover;
+    width: minmax(auto, 80vw);
+    height: 40vw;
+    max-height: 530px;
+    background-color: blue;
+}
+.secondary-box {
+grid-column: 2 / 3;
+grid-row: 3;
+background-color: burlywood;
+}
+.aside {
+grid-column: 1 / 2;
+grid-row:2;
+background-color: bisque;
+}

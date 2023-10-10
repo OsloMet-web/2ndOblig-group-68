@@ -55,3 +55,8 @@ li a:hover {
     color: white;
 }
 
+.test-images img{
+    width: 50vw;
+    height: 50vh;
+}
+

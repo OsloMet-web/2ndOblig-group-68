@@ -6,7 +6,7 @@
 .main-box {
     grid-column: 2 / 4; /* Dette betyr visst start at line 2 end at line 4 */
     grid-row: 1;
-    background-color: aquamarine; /* Må fjerne fargene såklart */
+    /* background-color: aquamarine; Må fjerne fargene såklart */
 }
 .image-box {
     grid-column: 2 / 4;
@@ -19,10 +19,10 @@
 .secondary-box {
     grid-column: 2 / 3;
     grid-row: 3;
-    background-color: burlywood;
+    /* background-color: burlywood; */
 }
 .aside {
     grid-column: 1 / 2;
     grid-row: 2;
-    background-color: bisque;
+    /* background-color: bisque; */
 }

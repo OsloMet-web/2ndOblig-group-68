@@ -11,12 +11,10 @@
 .image-box {
     grid-column: 2 / 4;
     grid-row: 2;
-    background-image: url();
-    background-size: cover;
-    width: minmax(auto, 80vw);
-    height: 40vw;
-    max-height: 530px;
-    background-color: blue;
+    background-image: url("../images/dog75.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 60vh;
 }
 .secondary-box {
     grid-column: 2 / 3;

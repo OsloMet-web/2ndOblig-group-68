@@ -1,3 +1,11 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    margin: 0px;
+}
+.image-text {
+    font-size: small;
+}
 .wrapper {
     display: grid;
     grid-template-columns: minmax(120px, 10vw) auto 30vw 40px;
